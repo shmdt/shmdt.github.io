@@ -4,9 +4,9 @@ var playerChoice = Math.random();
 var enemyChoice = Math.random();
 
  if (playerChoice >= enemyChoice) {
-   document.getElementById('battle').innerHTML = ((playerChoice*10).toPrecision(2) + " > " + (enemyChoice*10).toPrecision(2) + " .Player win!");
+   document.getElementById('battle').innerHTML = ((playerChoice*10).toPrecision(2) + " > " + (enemyChoice*10).toPrecision(2) + " Player win!");
  } else {
-   document.getElementById('battle').innerHTML = ((playerChoice*10).toPrecision(2) + " < " + (enemyChoice*10).toPrecision(2) + " .Enemy win!");
+   document.getElementById('battle').innerHTML = ((playerChoice*10).toPrecision(2) + " < " + (enemyChoice*10).toPrecision(2) + " Enemy win!");
  };
 };
 var mainText = document.getElementById('main');
