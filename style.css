@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Underdog&subset=latin,cyrillic);
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #303f9f;
+  font-family: 'Underdog', cursive;
+  cursor: default;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+}
+#main {
+  color: white;
+  font-size: 1.3em;
+  margin: 0;
+}
+.game-window {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+  text-align: left;
+  padding-bottom: 30px;
+}
+.left-section {
+  width: 20%;
+  float: left;
+}
+.right-section h1 {
+  text-align: left;
+}
+.right-section {
+  width: 80%;
+  height: auto;
+  float: right;
+  text-align: left;
+}
+#myInput {
+  margin: 20px 0 0 0;
+  width: 20%;
+}
