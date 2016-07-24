@@ -635,10 +635,10 @@ function checkPoint() {
   var text;
   var numberGameList = document.getElementById("myInput").value;
   i = numberGameList - 1;
-  if (Number(numberGameList) == Number(numberGameList)) {
-    text = gameList[i];
-  } else {
+  if (isNaN(numberGameList) || numberGameList < 1 || numberGameList >= 618) {
     text = "Введите корректное значение";
+  } else {
+    text = gameList[i];
   };
   document.getElementById("main").innerHTML = text;
 }
