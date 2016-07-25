@@ -1,11 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Underdog&subset=latin,cyrillic);
 
 body {
   width: 100%;
   padding: 0;
   margin: 0;
   background-color: #303f9f;
-  font-family: 'Underdog', cursive;
   cursor: default;
   color: #fff;
 }
