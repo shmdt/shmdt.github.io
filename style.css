@@ -7,35 +7,47 @@ body {
   cursor: default;
   color: #fff;
 }
-h1 {
-  text-align: center;
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
-#main {
-  color: white;
-  font-size: 1.3em;
-  margin: 0;
+.col-1 {
+  width: 8.333%;
 }
-.game-window {
-  width: 80%;
-  margin: auto;
-  padding: 0;
-  text-align: left;
-  padding-bottom: 30px;
+.col-2 {
+  width: 16.666%;
 }
-.left-section {
-  width: 20%;
-  float: left;
+.col-3 {
+  width: 25%;
 }
-.right-section h1 {
-  text-align: left;
+.col-4 {
+  width: 33.333%;
 }
-.right-section {
-  width: 80%;
-  height: auto;
-  float: right;
-  text-align: left;
+.col-5 {
+  width: 41.666%;
 }
-#myInput {
-  margin: 20px 0 0 0;
-  width: 20%;
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.333%;
+}
+.col-8 {
+  width: 66.666%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.333%;
+}
+.col-11 {
+  width: 91.666%;
+}
+.col-12 {
+  width: 100%;
+}
+.item {
+
 }
